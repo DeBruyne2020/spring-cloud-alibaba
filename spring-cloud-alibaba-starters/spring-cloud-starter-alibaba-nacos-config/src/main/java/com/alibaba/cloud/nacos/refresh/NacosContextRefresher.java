@@ -112,8 +112,8 @@ public class NacosContextRefresher
 						refreshCountIncrement();
 						nacosRefreshHistory.addRefreshRecord(dataId, group, configInfo);
 						/**
-						 * applicationContext.publishEvent( new RefreshEvent(this, null,
-						 * "Refresh Nacos config"));
+						 * 111 applicationContext.publishEvent( new RefreshEvent(this,
+						 * null, "Refresh Nacos config"));
 						 */
 						if (log.isDebugEnabled()) {
 							log.debug(String.format(
